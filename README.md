@@ -18,9 +18,9 @@ A sortable list game that works with the Drag and Drop API. Practice with the di
 
 ## Screenshots
 
-![Screenshot]()
+![Screenshot](https://user-images.githubusercontent.com/57517804/115666886-b64f0600-a377-11eb-9144-77398c0ccdaa.png)
 
-[Demo]()
+[Demo](https://keen-bohr-44f7f8.netlify.app)
 
 ## Built With
 
