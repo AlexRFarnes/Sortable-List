@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  background: #1e3d59;
+  color: #322e2f;
+  color: #fff;
+}
+
+.draggable-list {
+  list-style: none;
+  border: 1px solid #1e3d59;
+  padding: 0;
+  color: #1e3d59;
+}
+
+li {
+  background: #fff;
+  display: flex;
+  flex: 1;
+}
+
+li:not(:last-of-type) {
+  border-bottom: 1px solid #1e3d59;
+}
+
+li.right .country-name {
+  color: #3ae374;
+}
+li.wrong .country-name {
+  color: #ff3838;
+}
+
+li.over .draggable {
+  background: #e8ddba;
+}
+
+.number {
+  background: #ff3838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  height: 60px;
+  width: 60px;
+}
+
+.country-name {
+  margin: 0 20px 0 0;
+}
+
+.draggable {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  flex: 1;
+  background-color: #f5f0e1;
+}
+
+.check-btn {
+  background: #ffc13b;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  border-radius: 3px;
+}
